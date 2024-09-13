@@ -1,0 +1,16 @@
+create table if not exists cash_collateral_set_data(
+cash_collateral_set_id Integer not null,
+description varchar(255) null,
+map_table_name varchar(255) null,
+start_date varchar(255) null,
+end_state varchar(255) null,
+record_created char null,
+record_modified char null,
+record_deleted char null,
+action_source varchar(255) null,
+process_name varchar(255) null,
+process_id Integer null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint cash_collateral_set_data_pk primary key(cash_collateral_set_id));

@@ -1,0 +1,16 @@
+create table if not exists cash_collateral_limit_fields(
+field_id Integer not null,
+field_name varchar(255) null,
+is_hidden varchar(255) null,
+collateral_screen_name varchar(255) null,
+field_size Integer null,
+is_amendable_from_screen char null,
+is_searchable_from_screen char null,
+search_type varchar(255) null,
+search_type_indicator varchar(255) null,
+creation_cr varchar(255) null,
+modified_cr varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint cash_collateral_limit_fields_pk primary key(field_id));
